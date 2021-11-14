@@ -143,6 +143,7 @@ a {
   font-weight: 700;
   text-transform: capitalize;
   text-align: center;
+  margin: 0;
 }
 
 .section-title {
@@ -473,4 +474,75 @@ a {
   font-weight: 300;
   color: var(--black-400);
   margin: 0 0 15px;
+}
+
+/*------------------ Fun Facts Section -----------------*/
+
+.fun-facts {
+  background-color: var(--black-100);
+}
+
+.fun-facts .section-title {
+  margin-bottom: 20px;
+}
+
+.fun-facts .section-title h2 {
+  text-align: left;
+}
+
+.fun-facts-img img {
+  max-width: 250px;
+  width: 100%;
+  box-shadow: var(--shadow-black-100);
+  border-radius: 32px;
+  animation: bounceTop_01 3s ease infinite;
+}
+
+.fun-facts-text p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black-400);
+  margin: 0 0 15px;
+  font-weight: 300;
+}
+
+.fun-fact-item {
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: var(--shadow-black-100);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.fun-fact-item h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 8px;
+}
+
+.fun-fact-item span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  line-height: 26px;
+  display: block;
+  color: #ffffff ;
+}
+
+.fun-fact-item.style-1 {
+  background-color: var(--color-1);
+}
+
+.fun-fact-item.style-2 {
+  background-color: var(--color-2);
+}
+
+.fun-fact-item.style-3 {
+  background-color: var(--color-3);
+}
+
+.fun-fact-item.style-4 {
+  background-color: #1597e5;
 }
