@@ -528,7 +528,7 @@ a {
   margin: 0;
   line-height: 26px;
   display: block;
-  color: #ffffff ;
+  color: #ffffff;
 }
 
 .fun-fact-item.style-1 {
@@ -545,4 +545,17 @@ a {
 
 .fun-fact-item.style-4 {
   background-color: #1597e5;
+}
+
+/*------------------ SCreenshot Section -----------------*/
+
+.screenshot-item {
+  margin: 15px;
+}
+
+.screenshot-item img {
+  width: 100%;
+  max-width: 250px;
+  display: block;
+  margin: auto;
 }
