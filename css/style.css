@@ -601,7 +601,6 @@ a {
   position: relative;
   z-index: 1;
 }
-
 .app-download .section-title h2 {
   color: #ffffff;
 }
@@ -623,14 +622,20 @@ a {
   padding: 30px;
   text-align: center;
   border-radius: 10px;
+  min-height: 35rem;
 }
 
 .app-download-item img {
   display: inline-block;
-  width: 100%;
-  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
   border-radius: 20px;
 }
+
+/* .app-download-item img:hover {
+  transform: scale(1.08);
+  transition: 1.5s ease-out;
+} */
 
 .app-download-item h3 {
   font-size: 22px;
@@ -646,4 +651,59 @@ a {
   font-weight: 300;
   margin: 0 0 30px;
   line-height: 26px;
+}
+
+/*------------------ How To Join -----------------*/
+
+.how-it-works-item {
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.how-it-works-item.line-right::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 50%;
+  top: 60px;
+  background-color: var(--main-color);
+  z-index: -1;
+}
+
+.how-it-works-item .step {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  background-color: var(--main-color);
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+
+.how-it-works-item h3 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--black-900);
+  text-transform: capitalize;
+}
+.how-it-works-item p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  color: var(--black-400);
+  line-height: 26px;
+}
+
+/*--------------Testimonials Section-----------------*/
+
+.testimonials {
+  background-color: var(--black-100);
 }
