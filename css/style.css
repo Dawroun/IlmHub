@@ -751,14 +751,14 @@ a {
   top: calc(50% - 15px);
 }
 .testimonial-item p {
-  font-size: 16px;
+  font-size: 14px;
   margin: 0 0 20px;
   color: var(--black-400);
   line-height: 26px;
   font-weight: 300;
 }
 .testimonial-item h3 {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--black-900);
   font-weight: 500;
   margin: 0 0 5px;
@@ -766,7 +766,7 @@ a {
 }
 .testimonial-item span {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--black-400);
   font-weight: 300;
 }
