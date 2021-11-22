@@ -784,10 +784,11 @@ a {
 .pricing-plan {
   box-shadow: var(--shadow-black-100);
   border-radius: 10px;
-  min-height: 30rem;
+  min-height: 33rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
 .pricing-plan .pricing-header {
@@ -808,10 +809,23 @@ a {
   padding: 40px 30px;
 }
 
+.pricing-plan .pricing-price .currency {
+}
+
+.pricing-plan .pricing-price .price {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.pricing-plan .pricing-price .period {
+}
+
 .pricing-plan .pricing-body {
   padding: 0 30px;
 }
 
 .pricing-plan .pricing-footer {
-  padding: 20px 30px 20px;
+  /* padding: 20px 30px; */
+  align-self: center;
 }
