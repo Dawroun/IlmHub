@@ -778,3 +778,40 @@ a {
   display: inline-block;
   color: var(--color-2);
 }
+
+/*----------------- Pricing Section ---------------*/
+
+.pricing-plan {
+  box-shadow: var(--shadow-black-100);
+  border-radius: 10px;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing-plan .pricing-header {
+  padding: 20px 30px;
+  border-bottom: 1px solid var(--black-alpha-100);
+}
+
+.pricing-plan .pricing-header h3 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--black-900);
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.pricing-plan .pricing-price {
+  padding: 40px 30px;
+}
+
+.pricing-plan .pricing-body {
+  padding: 0 30px;
+}
+
+.pricing-plan .pricing-footer {
+  padding: 20px 30px 20px;
+}
