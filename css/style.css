@@ -865,3 +865,21 @@ a {
   /* align-self: center; */
   text-align: center;
 }
+
+/*----------------- Team Section ---------------*/
+
+.team {
+  background-color: var(--black-100);
+}
+
+.team-item {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: var(--shadow-black-100);
+}
+
+.team-item img {
+  height: 400px;
+  width: 400px;
+}
