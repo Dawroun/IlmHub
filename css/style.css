@@ -881,5 +881,22 @@ a {
 
 .team-item img {
   height: 400px;
-  width: 400px;
+}
+
+.team-item h3 {
+  font-size: 18px;
+  text-align: center;
+  color: var(--black-900);
+  font-weight: 500;
+  margin: 15px 0 8px;
+  text-transform: capitalize;
+}
+
+.team-item span {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+  color: var(--black-400);
+  text-transform: capitalize;
 }

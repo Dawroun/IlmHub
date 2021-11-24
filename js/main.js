@@ -11,7 +11,7 @@ $(document).ready(function () {
 
 
     /*------------------ Video Popup -----------------*/
-    
+
     const videoSrc = $("#player-1").attr("src");
     $(".video-play-btn, .video-popup").on("click", function () {
         if ($(".video-popup").hasClass("open")) {
@@ -92,7 +92,7 @@ $(document).ready(function () {
     $('.team-carousel').owlCarousel({
         loop: true,
         margin: 0,
-        // autoplay: true,
+        autoplay: true,
         responsiveClass: true,
         responsive: {
             0: {
