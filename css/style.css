@@ -900,3 +900,69 @@ a {
   color: var(--black-400);
   text-transform: capitalize;
 }
+
+/*----------------- FAQ Section ---------------*/
+
+.faq .accordion-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.faq .accordion-header {
+  box-shadow: var(--shadow-black-100);
+  padding: 20px 30px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.faq .accordion-header::before {
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  color: var(--black-100);
+}
+
+.faq .accordion-header:not(.collapsed)::before {
+  content: "\f068";
+  color: #fff;
+}
+
+.faq .accordion-header:not(.collapsed) {
+  background-color: var(--main-color);
+}
+
+.faq .accordion-header h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--black-400);
+  margin: 0;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+}
+
+.faq .accordion-header:not(.collapsed) h3 {
+  color: #ffffff;
+}
+
+.faq .accordion-body {
+  padding: 30px;
+  background-color: var(--black-100);
+}
+
+.faq .accordion-body p {
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--black-400);
+  line-height: 26px;
+  margin: 0;
+}
