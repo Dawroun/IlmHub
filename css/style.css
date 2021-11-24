@@ -967,3 +967,13 @@ a {
   line-height: 26px;
   margin: 0;
 }
+
+/*----------------- CONTACT Section ---------------*/
+
+.contact {
+  background-color: var(--black-100);
+}
+
+/* .contact-info{
+  
+} */
