@@ -909,7 +909,7 @@ a {
 
 .faq .accordion-header {
   box-shadow: var(--shadow-black-100);
-  padding: 20px 30px;
+  padding: 20px 50px 20px 30px;
   transition: all 0.5s ease;
   cursor: pointer;
   position: relative;
@@ -922,23 +922,24 @@ a {
   position: absolute;
   height: 30px;
   width: 30px;
-  background-color: red;
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
   font-size: 16px;
   text-align: center;
   line-height: 30px;
-  color: var(--black-100);
+  color: var(--black-400);
+  transition: all 0.5s ease;
 }
 
 .faq .accordion-header:not(.collapsed)::before {
   content: "\f068";
-  color: #fff;
+  color: #ffffff;
 }
 
 .faq .accordion-header:not(.collapsed) {
   background-color: var(--main-color);
+  box-shadow: none;
 }
 
 .faq .accordion-header h3 {
@@ -955,7 +956,7 @@ a {
 }
 
 .faq .accordion-body {
-  padding: 30px;
+  padding: 20px 30px;
   background-color: var(--black-100);
 }
 
