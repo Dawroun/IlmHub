@@ -880,7 +880,10 @@ a {
 }
 
 .team-item img {
+  float: left;
+  width: 400px;
   height: 400px;
+  object-fit: cover;
 }
 
 .team-item h3 {

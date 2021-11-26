@@ -34,19 +34,25 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" data-scroll-nav="0" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Courses</a>
+            <a class="nav-link" data-scroll-nav="1" href="#">Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Goal</a>
+            <a class="nav-link" data-scroll-nav="2" href="#">join</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Teachers</a>
+            <a class="nav-link" data-scroll-nav="4" href="#">Prices</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" data-scroll-nav="5" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll-nav="6" href="#">Teachers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll-nav="7" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -56,7 +62,7 @@
   <!-- navbar end-->
 
   <!-- Home Section Start-->
-  <section class="home d-flex align-items-center">
+  <section class="home d-flex align-items-center" data-scroll-index="0">
     <div class="effect-wrap">
       <i class="fas fa-plus effect effect-1"></i>
       <i class="fas fa-plus effect effect-2"></i>
@@ -69,8 +75,8 @@
             <h1>Imlhub Nimaligi Haqida Qisqacha (Company shiori)</h1>
             <p>Bettayam info ketadi project haqida</p>
             <div class="home-btn">
-              <a href="#contact" class="btn btn-1">Contact Us</a>
-              <button type="button" class="btn btn-1 video-play-btn">
+              <a href="#" data-scroll-nav="7" class="btn btn-1">Contact Us</a>
+              <button type="button" data-scroll-goto="3" class="btn btn-1 video-play-btn">
                 <i class="fas fa-play"></i>
               </button>
             </div>
@@ -90,7 +96,7 @@
 
 
   <!-- Feauter Section Start-->
-  <section id="courses" class="features section-padding">
+  <section id="courses" class="features section-padding" data-scroll-index="1">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -280,7 +286,7 @@
 
 
   <!--  How to become a member Section Start-->
-  <section class="how-it-works section-padding">
+  <section class="how-it-works section-padding" data-scroll-index="2">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -410,7 +416,7 @@
   <!--  Testimonials Section End-->
 
   <!-- PRICING SECTION START-->
-  <section class="pricing section-padding">
+  <section class="pricing section-padding" data-scroll-index="4">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -560,7 +566,7 @@
   <!-- TEAM SECTION START-->
 
 
-  <section class="team section-padding">
+  <section class="team section-padding" data-scroll-index="6">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -605,7 +611,7 @@
   <!-- TEAM SECTION END-->
 
   <!--  FAQ SECTION START-->
-  <section class="faq section-padding">
+  <section class="faq section-padding" data-scroll-index="5">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -678,7 +684,7 @@
   <!--  FAQ SECTION END-->
 
   <!--   CONTACT SECTION START   -->
-  <section id="contact" class="contact section-padding">
+  <section id="contact" class="contact section-padding" data-scroll-index="7">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -793,16 +799,16 @@
             <h3>quick links</h3>
             <ul>
               <li>
-                <a href="#"><i class="fas fa-home"></i> home</a>
+                <a href="#" data-scroll-nav="0"><i class="fas fa-home"></i> home</a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-leanpub"></i> courses</a>
+                <a href="#" data-scroll-nav="1"><i class="fab fa-leanpub"></i> courses</a>
               </li>
               <li>
-                <a href="#"><i class="fas fa-graduation-cap"></i> teachers</a>
+                <a href="#" data-scroll-nav="6"><i class="fas fa-graduation-cap"></i> teachers</a>
               </li>
               <li>
-                <a href="#"><i class="fas fa-hand-holding-usd"></i> pricing</a>
+                <a href="#" data-scroll-nav="4"><i class="fas fa-hand-holding-usd"></i> pricing</a>
               </li>
             </ul>
           </div>
@@ -812,13 +818,14 @@
             <h3>social pages</h3>
             <ul>
               <li>
-                <a href="#"><i class="fab fa-facebook-square"></i> facebook</a>
+                <a href="https://t.me/ilmhubuz"><i class="fab fa-telegram-plane"></i> telegram</a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-youtube"></i> youtube</a>
+                <a href="https://www.youtube.com/channel/UCExbuFxW_p3VQq573KWS6UQ"><i class="fab fa-youtube"></i>
+                  youtube</a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-instagram"></i> instagram </a>
+                <a href="https://www.instagram.com/ilmhubuz/"><i class="fab fa-instagram"></i> instagram </a>
               </li>
               <li>
                 <a href="#"><i class="fab fa-twitter"></i> twitter</a>
