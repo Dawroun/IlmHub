@@ -1151,7 +1151,7 @@ a {
   }
 }
 
-@media (max-width: 775px) {
+@media (max-width: 575px) {
   .home-text h1 {
     font-size: 26px;
   }
