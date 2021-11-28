@@ -113,4 +113,10 @@ $(document).ready(function () {
         topOffset: -50
     });
 
+    /*------------------ NAVBAR COLLAPSE -----------------*/
+
+    $(".nav-link").on("click", function () {
+        $(".navbar-collapse").collapse("hide");
+    })
+
 });
