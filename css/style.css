@@ -20,6 +20,10 @@
   --black-alpha-100: rgba(0, 0, 0, 0.05);
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -1182,6 +1186,10 @@ a {
 /*----------------- Responsiveness ---------------*/
 
 @media (max-width: 991px) {
+  body {
+    margin-right: 0;
+  }
+
   .navbar-toggler {
     background-color: var(--dark-to-main-color);
     box-shadow: var(--shadow-black-300);
