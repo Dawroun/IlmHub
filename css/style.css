@@ -1143,11 +1143,22 @@ a {
   .home-text h1 {
     font-size: 30px;
   }
+  .how-it-works-item.line-right::before {
+    content: none;
+  }
+  .how-it-works-item {
+    box-shadow: var(--shadow-black-100);
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 767px) {
   .home-text {
     margin-bottom: 80px;
+  }
+  .fun-facts-img img {
+    margin-bottom: 30px;
   }
 }
 
