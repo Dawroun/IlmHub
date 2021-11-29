@@ -10,7 +10,7 @@
   --color-3: #09d69c;
   --bg-dark: #2b2c2f;
   --main-to-dark-color: var(--main-color);
-  --dark-to-main-color: var(var(--bg-dark));
+  --dark-to-main-color: var(--bg-dark);
   --shadow-black-100: 0 5px 15px rgba(0, 0, 0, 0.1);
   --shadow-black-300: 0 5px 15px rgba(0, 0, 0, 0.3);
   --black-900: #000000;
@@ -27,6 +27,19 @@ body {
   overflow-x: hidden;
   background-color: #ffffff;
   line-height: 1.5;
+}
+
+body.dark {
+  --main-color: #183498;
+  background-color: var(--bg-dark);
+  --black-100: var(--bg-dark);
+  --black-000: var(--bg-dark);
+  --main-to-dark-color: var(--bg-dark);
+  --dark-to-main-color: var(--main-color);
+  --shadow-black-100: var(var(--shadow-black-300));
+  --black-alpha-100: rgba(255, 255, 255, 0.05);
+  --black-900: #ffffff;
+  --black-400: #bbbbbb;
 }
 
 * {
@@ -618,7 +631,7 @@ a {
 }
 
 .app-download-item {
-  background-color: var(--dark-to-main-color);
+  background-color: none;
   padding: 30px;
   text-align: center;
   border-radius: 10px;
@@ -1108,6 +1121,29 @@ a {
   text-decoration: none;
 }
 
+/*----------------- Toggle Theme ---------------*/
+
+.toggle-theme {
+  position: fixed;
+  right: 0;
+  top: calc(50% - 20px);
+  height: 40px;
+  width: 40px;
+  background-color: var(--dark-to-main-color);
+  z-index: 1200;
+  color: #ffffff;
+  border-radius: 50%;
+  box-shadow: var(--shadow-black-300);
+  cursor: pointer;
+
+  font-size: 1rem;
+  text-align: center;
+}
+
+.toggle-theme i {
+  line-height: 40px;
+}
+
 /*----------------- Responsiveness ---------------*/
 
 @media (max-width: 991px) {
@@ -1160,6 +1196,18 @@ a {
   .fun-facts-img img {
     margin-bottom: 30px;
   }
+  .contact-form {
+    margin-top: 20px;
+  }
+  .footer-col {
+    margin-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 35px;
+  }
+  .fun-facts .section-title h2 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1168,5 +1216,8 @@ a {
   }
   .home-text p {
     font-size: 14px;
+  }
+  .section-title h2 {
+    font-size: 30px;
   }
 }
